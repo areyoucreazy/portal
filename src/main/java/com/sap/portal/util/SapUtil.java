@@ -83,6 +83,13 @@ public class SapUtil {
             function = destination.getRepository().getFunctionTemplate("ZRFC_DEMO").getFunction();
             JCoParameterList input = function.getImportParameterList();
             input.setValue("IV_BUKRS","32R0");//输入参数
+            JCoParameterList inputTable = function.getTableParameterList();
+            JCoTable jCoTable = inputTable.getTable("IT_MAT");
+            for(int i = 0; i<jCoTable.getNumRows(); i++){
+                jCoTable.setRow(i);
+                jCoTable.getTable(i);
+//               System.out.println(table.getString("IDAT2").equals("0000-00-00"));
+            }
 //            input.setValue("I_ADD","X");
             function.execute(destination);
 //            result= function.getExportParameterList().getInt("RESULT");//调用接口返回结果
