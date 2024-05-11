@@ -1,10 +1,13 @@
 #for connection !
-#Tue Apr 30 15:57:22 CST 2024
-jco.client.lang=ZH
-jco.destination.peak_limit=10
-jco.client.client=120
-jco.client.passwd=w`|AT#{NIsmjy9Jn`]:A/F`T4|D:?yrT~~Xy%2j%vKd2At7U
-jco.client.user=JCWEI
-jco.client.sysnr=00
+#Sat May 11 16:58:40 CST 2024
 jco.destination.pool_capacity=3
-jco.client.ashost=10.3.129.1
+jco.client.r3name=ET0
+jco.client.msserv=3601
+jco.client.group=ET0_LG_01
+jco.client.lang=ZH
+jco.client.ashost=sapet0app01.gaojihealth.com
+jco.client.user=GJ_JM
+jco.destination.peak_limit=10
+jco.client.sysnr=00
+jco.client.passwd=t-_UUUp~EBCDZ4G,no*Tn7Lk{#`}[j-W4(oG!h6WUiU`{4s5
+jco.client.client=600

@@ -1,0 +1,25 @@
+
+**** Error file opened at 20240509 150601 China Standard Time Rel. 3.0.17 (2017-07-17) [754.312]
+Error:  >Thu May 09 15:06:01,042<    RfcException:
+	message: Parameter ABAP system number ('sysnr') is missing
+	return code: RFC_INVALID_PARAMETER (19)
+	error group: 101
+	key: RFC_ERROR_PROGRAM
+	at com.sap.conn.rfc.api.RfcOptions.checkSystemNumber(RfcOptions.java:400)
+	at com.sap.conn.rfc.api.RfcOptions.checkParameters(RfcOptions.java:280)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.initialize(MiddlewareJavaRfc.java:1316)
+	at com.sap.conn.jco.rt.MiddlewareJavaRfc$JavaRfcClient.connect(MiddlewareJavaRfc.java:1346)
+	at com.sap.conn.jco.rt.ClientConnection.connect(ClientConnection.java:704)
+	at com.sap.conn.jco.rt.RepositoryConnection.connect(RepositoryConnection.java:72)
+	at com.sap.conn.jco.rt.PoolingFactory.init(PoolingFactory.java:115)
+	at com.sap.conn.jco.rt.ConnectionManager.createFactory(ConnectionManager.java:349)
+	at com.sap.conn.jco.rt.DefaultConnectionManager.createFactory(DefaultConnectionManager.java:46)
+	at com.sap.conn.jco.rt.ConnectionManager.getFactory(ConnectionManager.java:323)
+	at com.sap.conn.jco.rt.RfcDestination.getSystemID(RfcDestination.java:1094)
+	at com.sap.conn.jco.rt.RepositoryManager.getRepository(RepositoryManager.java:29)
+	at com.sap.conn.jco.rt.RfcDestination.initRepository(RfcDestination.java:1049)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:1193)
+	at com.sap.conn.jco.rt.RfcDestination.getRepository(RfcDestination.java:33)
+	at com.sap.portal.util.SapUtil.main(SapUtil.java:96)
+
+
